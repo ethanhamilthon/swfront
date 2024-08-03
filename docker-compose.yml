@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  sw_app:
+    image: swtest:0.0.3
+    container_name: sw_app
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./.env:/app/.env
+      - ./maindata.db:/app/maindata.db
+    environment:
+      - REDIRECT_URL="http://localhost:3001/api/googleoauth/callback"

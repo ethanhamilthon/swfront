@@ -1,0 +1,236 @@
+{
+  "Landing": {
+    "Title": "Master new<br></br> words <sp>faster</sp>",
+    "LoginButton": "Log In",
+    "TryButton": "I want to try",
+    "Desc": "<sp>Syncword</sp> uses <sp>AI</sp> to <br></br>make language learning easier",
+    "Hero": {
+      "Title": "Learn new<br></br>words",
+      "W1": "fast",
+      "W2": "efficient",
+      "W3": "forever",
+      "Desc": "Learn 20 words daily<br></br>in just 15-30 minutes.",
+      "Noreg": "No signup",
+      "Try": "Try it now",
+      "Word": "Lernen",
+      "WordDesc": "The word \"lernen\" in German means \"to study\" or \"to learn\".",
+      "Exam": "Example",
+      "E1": "Ich möchte Englisch lernen.",
+      "E2": "Sie lernt jeden Tag neue Wörter.",
+      "E3": "Wir werden lernen, Pasta zu kochen.",
+      "T1": "I want to learn English.",
+      "T2": "She learns new words every day.",
+      "T3": "We will learn to cook pasta.",
+      "Gen": "Create",
+      "So": "I want also"
+    },
+    "Header": {
+      "Over": "Overview",
+      "Works": "How It Works",
+      "Try": "Try Now",
+      "Price": "Pricing"
+    },
+    "Stats": {
+      "First": {
+        "Main": "~500",
+        "Label": "Words/Month",
+        "Desc": "📚 On average, users learn<br></br>500 new words each month."
+      },
+      "Second": {
+        "Main": "~2x",
+        "Label": "Faster",
+        "Desc": "⏱️ Our service doubles the speed of<br></br>language learning compared to traditional methods."
+      },
+      "Third": {
+        "Main": "100%",
+        "Label": "Covered",
+        "Desc": "🤖 Our AI explains all terms<br></br>so you always understand the material."
+      }
+    },
+    "TryOnce": {
+      "Title": "Try our service<br></br>without registration right now",
+      "Loading": "Loading...",
+      "More": "Learn more words",
+      "Back": "Back",
+      "Go": "Let's start!",
+      "YourWord": "Enter the word<br></br>you want to learn",
+      "ToLang": "Choose a language to learn",
+      "NativeLang": "Select your native language:"
+    },
+    "Works": {
+      "Title": "How does our language<br></br>learning tool work?",
+      "T1": "Create new words with just one click!",
+      "T2": "Repeat added words daily.",
+      "T3": "Take quizzes and reinforce new words in your vocabulary.",
+      "T4": "Track your progress and expand your vocabulary!"
+    },
+    "Paradox": {
+      "Title": "A strange paradox… 😵‍💫",
+      "Desc1": "Remembering individual words is harder than learning through sentence examples. Examples help the brain retain information faster and for longer.",
+      "Desc2": "This is exactly what we do at Syncword. We explain words through examples and show them in context."
+    },
+    "WhyUs": {
+      "Title": "Why with us?",
+      "Card1": {
+        "Title": "All in one click:",
+        "Desc": "Enter a word, and we instantly show its translation and usage examples."
+      },
+      "Card2": {
+        "Title": "Convenient repetition:",
+        "Desc": "You can repeat words anytime, which helps to remember them better."
+      },
+      "Card3": {
+        "Title": "Accurate translation:",
+        "Desc": "Our translations are created using powerful AI, much more accurate than regular translators."
+      },
+      "Card4": {
+        "Title": "Only the necessary information:",
+        "Desc": "You will receive only the necessary information without unnecessary details."
+      }
+    },
+    "FAQ": {
+      "Q1": "What do I need to do to get started?",
+      "A1": "To get started, simply register on our website using your Google account—it only takes three clicks! After that, you can easily add new words to the system. Our interface is designed to be easy to use.",
+      "Q2": "Is your app free?",
+      "A2": "Yes, our service is free forever. While there are some limitations in the free plan, it's perfect for getting started. You can learn up to 100 words per month effortlessly. If you need more, you can always upgrade to the premium plan for 7 euros.",
+      "Q3": "How much time should I spend learning?",
+      "A3": "Creating new cards takes about a minute or even less. We recommend using the 'Games' feature for reviewing and reinforcing words. It takes just 20-30 minutes a day and allows you to learn new words effectively.",
+      "Q4": "Is this a mobile app?",
+      "A4": "No, Vocabraze is an online service accessible from any device with a browser. Just visit our website using your browser and start learning!"
+    },
+    "CTA": {
+      "Title": "Start learning now",
+      "Desc": "The app is completely free, no trial period. One-click registration through Google!",
+      "Button": "I wanna try"
+    },
+    "Footer": {
+      "Links": "Connect with author"
+    }
+  },
+  "Meta": {
+    "Landing": {
+      "Title": "Welcome to Vocabraze",
+      "Desc": "It is good"
+    }
+  },
+  "Login": {
+    "Welcome": "Welcome!",
+    "Next": "Please log in with Google to continue 👀",
+    "Button": "Log in with Google"
+  },
+  "Header": {
+    "Word": "Words",
+    "Play": "Game",
+    "Profile": "Profile",
+    "Choose": "Choose language",
+    "New": "New word"
+  },
+  "Onboard": {
+    "OS": {
+      "Title": "Select your primary language:",
+      "Desc": "Choose the language you speak fluently. All interfaces and word descriptions will be in this language. You can only change the language once every 30 days.",
+      "Button": "Save"
+    },
+    "Target": {
+      "Title": "Select languages to learn:",
+      "ChooseOnly": "Choose only the languages you really want to study.",
+      "EmptySelect": "You haven't selected anything yet.",
+      "Selected": "You have selected: ",
+      "Button": "Save"
+    }
+  },
+  "Search": {
+    "Title": "Search",
+    "Plc": "Find your word :)",
+    "Found": "Found"
+  },
+  "Home": {
+    "Empty": "It's empty here,<br></br>add new words 🤪",
+    "Full": "Show all",
+    "Load": "More Words"
+  },
+  "Profile": {
+    "Targets": "You're learning these languages:",
+    "OS": "System language:",
+    "Plan": "Your plan:",
+    "Points": "Remaining points:",
+    "Logout": "Log out",
+    "Premium": "Get Premium"
+  },
+  "Repeat": {
+    "Back": "Back",
+    "Next": "Next",
+    "End": "Finish",
+    "Start": {
+      "Title": "Let's<br></br><sp>learn!</sp>",
+      "Max": "words to review (up to 50)",
+      "Go": "Let's go!"
+    }
+  },
+  "Edit": {
+    "Title": "Your word:",
+    "TitleP": "Keep it short and clear ;)",
+    "Desc": "What does it mean:",
+    "DescP": "Write a description for your word:",
+    "Delete": "Delete",
+    "Save": "Save"
+  },
+  "Ask": {
+    "YourLang": "Write in ",
+    "InputP": "Keep it short and clear ;)",
+    "Button1": "Generate",
+    "Button2": "Go to word",
+    "Left": "<p></p> points left.",
+    "Guide": {
+      "Main": "How to get a good result?",
+      "1": "- Write the word in the language: ",
+      "2": "- Write the word without grammatical changes",
+      "3": "- If possible, write only the word or a short phrase"
+    }
+  },
+  "Locale": {
+    "Language": "Language"
+  },
+  "NoPoints": {
+    "Title": " You're out of points 😢<br></br>You can't create any more words",
+    "Desc": "You've already used all your points to create words<br></br>Improve your plan or wait for an update",
+    "Upgrade": "Upgrade my Plan",
+    "Next": "Next free update:"
+  },
+  "Pricing": {
+    "Title": "Unlock Premium<br></br>Word Mastery",
+    "SubTitle": "Get access to advanced AI-powered tools<br></br>and exclusive vocabulary sets for just $7/month.",
+    "Current": "You already have this plan",
+    "Free": {
+      "Title": "Basic Plan",
+      "Desc": "This plan will always be free, but with some limitations",
+      "Price": "0$",
+      "PriceLabel": "Forever",
+      "Button": "Start Learning",
+      "YouGet": "What do you get?",
+      "T1": "50 words each month",
+      "T2": "Unlimited repetitions",
+      "T3": "Basic statistics",
+      "T4": "Only 1 quiz per month",
+      "T5": "Can learn only 1 language",
+      "T6": "No grammar breakdowns"
+    },
+    "Premium": {
+      "Title": "Premium Plan",
+      "Desc": "This plan gives you all the features of the service and helps you learn faster",
+      "Price": "7$",
+      "PriceLabel": "Per month",
+      "Button": "Start Learning",
+      "Best": "Best Choice",
+      "YouGet": "What do you get?",
+      "T1": "700 words each month",
+      "T2": "Unlimited repetitions",
+      "T3": "Full statistics",
+      "T4": "30 quizzes each month",
+      "T5": "Can learn 3 languages at once",
+      "T6": "Complete grammar breakdowns",
+      "T7": "Word recommendations",
+      "T8": "Ready-made vocabulary of 500 words"
+    }
+  }
+}

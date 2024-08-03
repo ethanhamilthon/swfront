@@ -1,0 +1,236 @@
+{
+  "Landing": {
+    "Title": "Yeni kelimeleri <br></br><sp>daha hızlı</sp> öğrenin",
+    "LoginButton": "Giriş Yap",
+    "TryButton": "Denemek istiyorum",
+    "Desc": "<sp>Syncword</sp> dil öğrenimini <sp>kolaylaştırmak</sp><br></br>için yapay zeka kullanıyor",
+    "Hero": {
+      "Title": "Yeni kelime<br></br>öğren",
+      "W1": "hızlı",
+      "W2": "etkili",
+      "W3": "daima",
+      "Desc": "Günde 20 kelimeyi<br></br>15-30 dakikada ezberle.",
+      "Noreg": "Kaydolmadan",
+      "Try": "Şimdi dene",
+      "Word": "Learn",
+      "WordDesc": "İngilizce'de \"learn\" kelimesi \"öğrenmek\" veya \"incelemek\" anlamına gelir.",
+      "Exam": "Örnek",
+      "E1": "I want to learn English.",
+      "E2": "She learns new words every day.",
+      "E3": "We will learn to cook pasta.",
+      "T1": "İngilizce öğrenmek istiyorum.",
+      "T2": "O her gün yeni kelimeler öğrenir.",
+      "T3": "Makarna yapmayı öğreneceğiz.",
+      "Gen": "Oluştur",
+      "So": "Ben de istiyorum"
+    },
+    "Header": {
+      "Over": "Genel Bakış",
+      "Works": "Nasıl Çalışır",
+      "Try": "Deneyin",
+      "Price": "Fiyatlandırma"
+    },
+    "Stats": {
+      "First": {
+        "Main": "~500",
+        "Label": "Kelime/Ay",
+        "Desc": "📚 Kullanıcılarımız ortalama olarak<br></br>ayda 500 yeni kelime öğrenir."
+      },
+      "Second": {
+        "Main": "~2x",
+        "Label": "Daha Hızlı",
+        "Desc": "⏱️ Hizmetimiz, dil öğrenme hızını<br></br>geleneksel yöntemlerin iki katına çıkarır."
+      },
+      "Third": {
+        "Main": "100%",
+        "Label": "Kapsanan",
+        "Desc": "🤖 Yapay zekamız tüm terimleri açıklar,<br></br>böylece her zaman materyali anlarız."
+      }
+    },
+    "Works": {
+      "Title": "Dil öğrenme aracımız<br></br>nasıl çalışıyor?",
+      "T1": "Tek bir tıklamayla yeni kelimeler oluşturun!",
+      "T2": "Eklenen kelimeleri her gün tekrar edin.",
+      "T3": "Testlere girin ve kelime bilginizdeki yeni kelimeleri pekiştirin.",
+      "T4": "İlerlemenizi takip edin ve kelime bilginizi genişletin!"
+    },
+    "TryOnce": {
+      "Title": "Hizmetimizi<br></br>kayıt olmadan şimdi deneyin",
+      "Loading": "Yükleniyor...",
+      "More": "Daha fazla kelime öğrenin",
+      "Back": "Geri",
+      "Go": "Başlayalım!",
+      "YourWord": "Öğrenmek istediğiniz kelimeyi<br></br>girin",
+      "ToLang": "Öğrenmek için bir dil seçin",
+      "NativeLang": "Ana dilinizi seçin:"
+    },
+    "Paradox": {
+      "Title": "Garip bir paradoks… 😵‍💫",
+      "Desc1": "Tek tek kelimeleri hatırlamak, cümle örnekleriyle öğrenmekten daha zordur. Örnekler, beynin bilgiyi daha hızlı ve daha uzun süre tutmasına yardımcı olur.",
+      "Desc2": "Syncword'de tam olarak bunu yapıyoruz. Kelimeleri örneklerle açıklıyor ve bağlam içinde gösteriyoruz."
+    },
+    "WhyUs": {
+      "Title": "Neden bizimle?",
+      "Card1": {
+        "Title": "Tek tıkla her şey:",
+        "Desc": "Bir kelime girin, anında çevirisini ve kullanım örneklerini gösteririz."
+      },
+      "Card2": {
+        "Title": "Kolay tekrar:",
+        "Desc": "Kelimeleri istediğiniz zaman tekrarlayabilirsiniz, bu da onları daha iyi hatırlamanıza yardımcı olur."
+      },
+      "Card3": {
+        "Title": "Doğru çeviri:",
+        "Desc": "Çevirilerimiz güçlü bir yapay zeka kullanılarak oluşturulmuştur, normal çevirmenlerden çok daha doğrudur."
+      },
+      "Card4": {
+        "Title": "Sadece gerekli bilgiler:",
+        "Desc": "Gereksiz detaylar olmadan sadece gerekli bilgileri alacaksınız."
+      }
+    },
+    "FAQ": {
+      "Q1": "Başlamak için ne yapmalıyım?",
+      "A1": "Başlamak için, Google hesabınızı kullanarak web sitemize kaydolun—bu sadece üç tık alır! Sonrasında sisteme kolayca yeni kelimeler ekleyebilirsiniz. Arayüzümüz, kullanımı kolay olacak şekilde tasarlanmıştır.",
+      "Q2": "Uygulamanız ücretsiz mi?",
+      "A2": "Evet, hizmetimiz sonsuza kadar ücretsizdir. Ücretsiz planda bazı kısıtlamalar olsa da, başlamak için mükemmeldir. Ayda 100 kelimeye kadar zahmetsizce öğrenebilirsiniz. Daha fazlasına ihtiyacınız varsa, her zaman 7 euro karşılığında premium plana geçebilirsiniz.",
+      "Q3": "Öğrenmeye ne kadar zaman ayırmalıyım?",
+      "A3": "Yeni kartlar oluşturmak yaklaşık bir dakika veya daha az sürer. Kelimeleri gözden geçirmek ve pekiştirmek için 'Oyunlar' özelliğini kullanmanızı öneririz. Günde sadece 20-30 dakika sürer ve yeni kelimeleri etkili bir şekilde öğrenmenizi sağlar.",
+      "Q4": "Bu bir mobil uygulama mı?",
+      "A4": "Hayır, Vocabraze tarayıcıya sahip herhangi bir cihazdan erişilebilen bir çevrimiçi hizmettir. Tarayıcınızı kullanarak web sitemizi ziyaret edin ve öğrenmeye başlayın!"
+    },
+    "CTA": {
+      "Title": "Şimdi öğrenmeye başlayın",
+      "Desc": "Uygulama tamamen ücretsizdir, deneme süresi yoktur. Google ile tek tıkla kayıt!",
+      "Button": "Denemek istiyorum"
+    },
+    "Footer": {
+      "Links": "Yazar ile iletişime geçin"
+    }
+  },
+  "Meta": {
+    "Landing": {
+      "Title": "Vocabraze'a Hoşgeldiniz",
+      "Desc": "İyi"
+    }
+  },
+  "Login": {
+    "Welcome": "Hoşgeldiniz!",
+    "Next": "Devam etmek için lütfen Google ile giriş yapın 👀",
+    "Button": "Google ile giriş yapın"
+  },
+  "Header": {
+    "Word": "Kelimeler",
+    "Play": "Oyun",
+    "Profile": "Profil",
+    "Choose": "Dil seçin",
+    "New": "Yeni kelime"
+  },
+  "Onboard": {
+    "OS": {
+      "Title": "Ana dilinizi seçin:",
+      "Desc": "Akıcı konuştuğunuz dili seçin. Tüm arayüzler ve kelime açıklamaları bu dilde olacak. Dili yalnızca her 30 günde bir değiştirebilirsiniz.",
+      "Button": "Kaydet"
+    },
+    "Target": {
+      "Title": "Öğrenilecek dilleri seçin:",
+      "ChooseOnly": "Gerçekten öğrenmek istediğiniz dilleri seçin.",
+      "EmptySelect": "Henüz hiçbir şey seçmediniz.",
+      "Selected": "Seçtiğiniz: ",
+      "Button": "Kaydet"
+    }
+  },
+  "Search": {
+    "Title": "Arama",
+    "Plc": "Kelimenizi bulun :)",
+    "Found": "Bulundu"
+  },
+  "Home": {
+    "Empty": "Burası boş,<br></br>yeni kelimeler ekleyin 🤪",
+    "Full": "Hepsini göster",
+    "Load": "Daha Fazla"
+  },
+  "Profile": {
+    "Targets": "Bu dilleri öğreniyorsunuz:",
+    "OS": "Sistem dili:",
+    "Plan": "Planınız:",
+    "Points": "Kalan puanlar:",
+    "Logout": "Çıkış Yap",
+    "Premium": "Premium Al"
+  },
+  "Repeat": {
+    "Back": "Geri",
+    "Next": "İleri",
+    "End": "Bitir",
+    "Start": {
+      "Title": "Haydi<br></br><sp>öğrenelim!</sp>",
+      "Max": "gözden geçirilecek kelimeler (en fazla 50)",
+      "Go": "Haydi gidelim!"
+    }
+  },
+  "Edit": {
+    "Title": "Kelimeleriniz:",
+    "TitleP": "Kısa ve net tutun ;)",
+    "Desc": "Bu ne anlama geliyor:",
+    "DescP": "Kelimeniz için bir açıklama yazın:",
+    "Delete": "Sil",
+    "Save": "Kaydet"
+  },
+  "Ask": {
+    "YourLang": "Yazın ",
+    "InputP": "Kısa ve net tutun ;)",
+    "Button1": "Oluştur",
+    "Button2": "Kelimeye git",
+    "Left": "<p></p> points left.",
+    "Guide": {
+      "Main": "İyi bir sonuç nasıl alınır?",
+      "1": "- Kelimeyi şu dilde yazın: ",
+      "2": "- Kelimeyi gramer değişiklikleri olmadan yazın",
+      "3": "- Mümkünse sadece kelimeyi veya kısa bir ifadeyi yazın"
+    }
+  },
+  "Locale": {
+    "Language": "Dil"
+  },
+  "NoPoints": {
+    "Title": " Puanınız bitti 😢<br></br>Daha fazla kelime oluşturamazsınız",
+    "Desc": "Kelime oluşturmak için tüm puanlarınızı zaten kullandınız<br></br>Planınızı yükseltin veya bir güncelleme bekleyin",
+    "Upgrade": "Planımı Yükselt",
+    "Next": "Sonraki ücretsiz güncelleme:"
+  },
+  "Pricing": {
+    "Title": "Premium'i Aç<br></br>Kelimeleri Ustalıkla Öğren",
+    "SubTitle": "Gelişmiş yapay zeka destekli araçlara<br></br>ve özel kelime setlerine sadece 7$/ay karşılığında eriş.",
+    "Current": "Bu plan zaten sende var",
+    "Free": {
+      "Title": "Temel Plan",
+      "Desc": "Bu plan her zaman ücretsiz olacak, ancak bazı sınırlamaları var",
+      "Price": "0$",
+      "PriceLabel": "Sonsuza Dek",
+      "Button": "Öğrenmeye Başla",
+      "YouGet": "Neler Elde Edersin?",
+      "T1": "Her ay 50 kelime",
+      "T2": "Sonsuz tekrar",
+      "T3": "Temel istatistikler",
+      "T4": "Aylık sadece 1 quiz",
+      "T5": "Sadece 1 dil öğrenebilirsin",
+      "T6": "Dilbilgisi analizleri yok"
+    },
+    "Premium": {
+      "Title": "Premium Plan",
+      "Desc": "Bu plan sana tüm özellikleri sunar ve daha hızlı öğrenmene yardımcı olur",
+      "Price": "7$",
+      "PriceLabel": "Ayda",
+      "Button": "Öğrenmeye Başla",
+      "Best": "En İyi Seçim",
+      "YouGet": "Neler Elde Edersin?",
+      "T1": "Her ay 700 kelime",
+      "T2": "Sonsuz tekrar",
+      "T3": "Tam istatistikler",
+      "T4": "Her ay 30 quiz",
+      "T5": "Aynı anda 3 dil öğrenebilirsin",
+      "T6": "Tam dilbilgisi analizleri",
+      "T7": "Kelime önerileri",
+      "T8": "500 kelimelik hazır kelime listesi"
+    }
+  }
+}

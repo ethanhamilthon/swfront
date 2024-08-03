@@ -1,0 +1,37 @@
+# Исключить node_modules
+node_modules
+node_modules/
+
+# Исключить директории логов и временных файлов
+logs
+*.log
+tmp
+*.tmp
+
+# Исключить файлы конфигурации, содержащие секреты
+.env
+
+# Исключить IDE и редактор файлов
+.vscode/
+.idea/
+*.swp
+
+# Исключить файлы Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Исключить директории, которые создаются сборочными процессами
+dist/
+build/
+coverage/
+.next/
+
+# Исключить файлы, связанные с тестированием
+*.spec.js
+*.test.js
+
+main.db
+sw.db
+maindata.db
+data.db

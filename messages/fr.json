@@ -1,0 +1,236 @@
+{
+  "Landing": {
+    "Title": "Maîtrisez de nouveaux<br></br> mots <sp>plus vite</sp>",
+    "LoginButton": "Se connecter",
+    "TryButton": "Je veux essayer",
+    "Desc": "<sp>Syncword</sp> utilise <sp>l'IA</sp> pour <br></br>faciliter l'apprentissage des langues",
+    "Hero": {
+      "Title": "Apprenez des<br></br>mots",
+      "W1": "vite",
+      "W2": "efficace",
+      "W3": "toujours",
+      "Desc": "Mémorisez 20 mots par<br></br>jour en 15-30 minutes.",
+      "Noreg": "Pas d'inscription",
+      "Try": "Essayez maintenant",
+      "Word": "Learn",
+      "WordDesc": "Le mot \"learn\" en anglais signifie \"étudier\" ou \"apprendre\".",
+      "Exam": "Exemple",
+      "E1": "I want to learn English.",
+      "E2": "She learns new words every day.",
+      "E3": "We will learn to cook pasta.",
+      "T1": "Je veux apprendre l'anglais.",
+      "T2": "Elle apprend de nouveaux mots chaque jour.",
+      "T3": "Nous allons apprendre à cuisiner des pâtes.",
+      "Gen": "Créer",
+      "So": "Je veux aussi"
+    },
+    "Header": {
+      "Over": "Aperçu",
+      "Works": "Comment ça marche",
+      "Try": "Essayer",
+      "Price": "Tarification"
+    },
+    "Stats": {
+      "First": {
+        "Main": "~500",
+        "Label": "Mots/Mois",
+        "Desc": "📚 En moyenne, les utilisateurs apprennent<br></br>500 nouveaux mots chaque mois."
+      },
+      "Second": {
+        "Main": "~2x",
+        "Label": "Plus Vite",
+        "Desc": "⏱️ Notre service double la vitesse d'apprentissage<br></br>par rapport aux méthodes traditionnelles."
+      },
+      "Third": {
+        "Main": "100%",
+        "Label": "Couvert",
+        "Desc": "🤖 Notre IA explique tous les termes<br></br>pour que vous compreniez toujours le contenu."
+      }
+    },
+    "Works": {
+      "Title": "Comment fonctionne notre outil<br></br>d'apprentissage des langues ?",
+      "T1": "Créez de nouveaux mots en un seul clic !",
+      "T2": "Répétez les mots ajoutés tous les jours.",
+      "T3": "Faites des quiz et renforcez les nouveaux mots dans votre vocabulaire.",
+      "T4": "Suivez vos progrès et élargissez votre vocabulaire !"
+    },
+    "Paradox": {
+      "Title": "Un étrange paradoxe… 😵‍💫",
+      "Desc1": "Se souvenir des mots individuels est plus difficile que d'apprendre à travers des exemples de phrases. Les exemples aident le cerveau à retenir les informations plus rapidement et plus longtemps.",
+      "Desc2": "C'est exactement ce que nous faisons chez Syncword. Nous expliquons les mots à travers des exemples et les montrons dans leur contexte."
+    },
+    "TryOnce": {
+      "Title": "Essayez notre service<br></br>sans inscription dès maintenant",
+      "Loading": "Chargement...",
+      "More": "Apprendre plus de mots",
+      "Back": "Retour",
+      "Go": "Commençons !",
+      "YourWord": "Entrez le mot<br></br>que vous souhaitez apprendre",
+      "ToLang": "Choisissez une langue à apprendre",
+      "NativeLang": "Sélectionnez votre langue maternelle :"
+    },
+    "WhyUs": {
+      "Title": "Pourquoi avec nous?",
+      "Card1": {
+        "Title": "Tout en un clic :",
+        "Desc": "Entrez un mot, et nous montrons instantanément sa traduction et des exemples d'utilisation."
+      },
+      "Card2": {
+        "Title": "Répétition pratique :",
+        "Desc": "Vous pouvez répéter les mots à tout moment, ce qui aide à mieux les retenir."
+      },
+      "Card3": {
+        "Title": "Traduction précise :",
+        "Desc": "Nos traductions sont créées à l'aide d'une IA puissante, beaucoup plus précises que les traducteurs ordinaires."
+      },
+      "Card4": {
+        "Title": "Uniquement les informations nécessaires :",
+        "Desc": "Vous recevrez uniquement les informations nécessaires sans détails superflus."
+      }
+    },
+    "FAQ": {
+      "Q1": "Que dois-je faire pour commencer?",
+      "A1": "Pour commencer, inscrivez-vous simplement sur notre site en utilisant votre compte Google—cela ne prend que trois clics! Après cela, vous pouvez facilement ajouter de nouveaux mots au système. Notre interface est conçue pour être facile à utiliser.",
+      "Q2": "Votre application est-elle gratuite?",
+      "A2": "Oui, notre service est gratuit pour toujours. Bien qu'il y ait quelques limitations dans le plan gratuit, il est parfait pour commencer. Vous pouvez apprendre jusqu'à 100 mots par mois sans effort. Si vous avez besoin de plus, vous pouvez toujours passer au plan premium pour 7 euros.",
+      "Q3": "Combien de temps dois-je consacrer à l'apprentissage?",
+      "A3": "Créer de nouvelles cartes prend environ une minute ou même moins. Nous vous recommandons d'utiliser la fonction 'Jeux' pour réviser et renforcer les mots. Cela prend seulement 20 à 30 minutes par jour et vous permet d'apprendre de nouveaux mots efficacement.",
+      "Q4": "Est-ce une application mobile?",
+      "A4": "Non, Vocabraze est un service en ligne accessible depuis n'importe quel appareil avec un navigateur. Visitez simplement notre site en utilisant votre navigateur et commencez à apprendre!"
+    },
+    "CTA": {
+      "Title": "Commencez à apprendre maintenant",
+      "Desc": "L'application est entièrement gratuite, sans période d'essai. Inscription en un clic via Google!",
+      "Button": "Je veux essayer"
+    },
+    "Footer": {
+      "Links": "Connectez-vous avec l'auteur"
+    }
+  },
+  "Meta": {
+    "Landing": {
+      "Title": "Bienvenue chez Vocabraze",
+      "Desc": "C'est bien"
+    }
+  },
+  "Login": {
+    "Welcome": "Bienvenue!",
+    "Next": "Veuillez vous connecter avec Google pour continuer 👀",
+    "Button": "Se connecter avec Google"
+  },
+  "Header": {
+    "Word": "Mots",
+    "Play": "Jeu",
+    "Profile": "Profil",
+    "Choose": "Choisir la langue",
+    "New": "Nouveau mot"
+  },
+  "Onboard": {
+    "OS": {
+      "Title": "Sélectionnez votre langue principale :",
+      "Desc": "Choisissez la langue que vous parlez couramment. Toutes les interfaces et descriptions des mots seront dans cette langue. Vous ne pouvez changer de langue qu'une fois tous les 30 jours.",
+      "Button": "Sauvegarder"
+    },
+    "Target": {
+      "Title": "Sélectionnez les langues à apprendre :",
+      "ChooseOnly": "Choisissez uniquement les langues que vous voulez vraiment étudier.",
+      "EmptySelect": "Vous n'avez encore rien sélectionné.",
+      "Selected": "Vous avez sélectionné : ",
+      "Button": "Sauvegarder"
+    }
+  },
+  "Search": {
+    "Title": "Recherche",
+    "Plc": "Trouvez votre mot :)",
+    "Found": "Trouvé"
+  },
+  "Home": {
+    "Empty": "C'est vide ici,<br></br>ajoutez de nouveaux mots 🤪",
+    "Full": "Tout afficher",
+    "Load": "Plus de Mots"
+  },
+  "Profile": {
+    "Targets": "Vous apprenez ces langues :",
+    "OS": "Langue du système :",
+    "Plan": "Votre plan :",
+    "Points": "Points restants :",
+    "Logout": "Se déconnecter",
+    "Premium": "Obtenir une prime"
+  },
+  "Repeat": {
+    "Back": "Retour",
+    "Next": "Suivant",
+    "End": "Terminer",
+    "Start": {
+      "Title": "Allons<br></br><sp>apprendre!</sp>",
+      "Max": "mots à réviser (jusqu'à 50)",
+      "Go": "Allons-y!"
+    }
+  },
+  "Edit": {
+    "Title": "Votre mot :",
+    "TitleP": "Gardez-le court et clair ;)",
+    "Desc": "Que signifie-t-il :",
+    "DescP": "Écrivez une description pour votre mot :",
+    "Delete": "Supprimer",
+    "Save": "Sauvegarder"
+  },
+  "Ask": {
+    "YourLang": "Écrivez en ",
+    "InputP": "Gardez-le court et clair ;)",
+    "Button1": "Générer",
+    "Button2": "Aller au mot",
+    "Left": "<p></p> points left.",
+    "Guide": {
+      "Main": "Comment obtenir un bon résultat ?",
+      "1": "- Écrivez le mot dans la langue : ",
+      "2": "- Écrivez le mot sans changements grammaticaux",
+      "3": "- Si possible, écrivez uniquement le mot ou une courte phrase"
+    }
+  },
+  "Locale": {
+    "Language": "Langue"
+  },
+  "NoPoints": {
+    "Title": " Vous n'avez plus de points 😢<br></br>Vous ne pouvez plus créer de mots",
+    "Desc": "Vous avez déjà utilisé tous vos points pour créer des mots<br></br>Améliorez votre plan ou attendez une mise à jour",
+    "Upgrade": "Améliorer mon plan",
+    "Next": "Prochaine mise à jour gratuite :"
+  },
+  "Pricing": {
+    "Title": "Déverrouille Premium<br></br>Maîtrise des mots",
+    "SubTitle": "Accède à des outils d'apprentissage avancés propulsés par l'IA<br></br>et à des ensembles de vocabulaire exclusifs pour seulement 7 $/mois.",
+    "Current": "Tu as déjà ce plan",
+    "Free": {
+      "Title": "Plan Basique",
+      "Desc": "Ce plan sera toujours gratuit, mais avec certaines limitations",
+      "Price": "0$",
+      "PriceLabel": "Pour Toujours",
+      "Button": "Commencer à Apprendre",
+      "YouGet": "Qu'est-ce que tu obtiens ?",
+      "T1": "50 mots chaque mois",
+      "T2": "Révisions illimitées",
+      "T3": "Statistiques de base",
+      "T4": "Seulement 1 quiz par mois",
+      "T5": "Tu peux apprendre seulement 1 langue",
+      "T6": "Pas d'analyses grammaticales"
+    },
+    "Premium": {
+      "Title": "Plan Premium",
+      "Desc": "Ce plan te donne toutes les fonctionnalités du service et t'aide à apprendre plus vite",
+      "Price": "7$",
+      "PriceLabel": "Par mois",
+      "Button": "Commencer à Apprendre",
+      "Best": "Meilleur Choix",
+      "YouGet": "Qu'est-ce que tu obtiens ?",
+      "T1": "700 mots chaque mois",
+      "T2": "Révisions illimitées",
+      "T3": "Statistiques complètes",
+      "T4": "30 quiz chaque mois",
+      "T5": "Tu peux apprendre 3 langues en même temps",
+      "T6": "Analyses grammaticales complètes",
+      "T7": "Recommandations de mots",
+      "T8": "Vocabulaire prêt de 500 mots"
+    }
+  }
+}
