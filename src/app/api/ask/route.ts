@@ -7,6 +7,22 @@ import { db } from "@/db";
 import { pointTable, wordTable } from "@/db/schema";
 import { eq } from "drizzle-orm";
 
+const WordSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  examples: z.array(
+    z.object({
+      sentence: z.string(),
+      translation: z.string(),
+      context: z.string(),
+    })
+  ),
+  word_level: z.string(),
+  pos: z.string(),
+  word_category: z.string(),
+  similar_words: z.array(z.string()),
+});
+
 const MessageSchema = z.object({
   id: z.string(),
   from: z.string(),

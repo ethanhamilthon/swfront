@@ -1,5 +1,6 @@
 // app/providers.js
 "use client";
+import { generateFingerprint } from "@/utils/client/fingerprint";
 import { newErrorEvent, newVisitEvent } from "@/utils/server/events";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
@@ -11,7 +12,8 @@ export function AnalyticsCounter(): null {
   const searchParams = useSearchParams();
   async function sendVisit(url: string) {
     try {
-      const res = await newVisitEvent(url);
+      const fp = await generateFingerprint();
+      const res = await newVisitEvent(url, fp);
       if (!res.ok) {
         throw new Error("bad request");
       }

@@ -16,7 +16,7 @@ export const LandingHeader = () => {
   const t = useTranslations("Landing.Header");
   return (
     <header className="w-full sticky top-0 py-3 px-2 sm:px-8 z-50">
-      <div className="w-full p-3 px-8 rounded-full border flex items-center justify-between border-violet-200 backdrop-blur bg-white/20">
+      <div className="w-full p-3 px-8 rounded-full border flex items-center justify-between border-violet-200 backdrop-blur bg-white/50">
         <MainLogo size={1} />
         <nav className="hidden items-center gap-8 text-sm font-light text-violet-950 md:flex">
           <ScrollButton id="stats">{t("Over")}</ScrollButton>

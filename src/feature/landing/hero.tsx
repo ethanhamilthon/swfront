@@ -50,13 +50,6 @@ export const LandingHero = () => {
               opacity: 0,
               y: 10,
             }}
-            drag
-            dragConstraints={{
-              top: -200,
-              left: -200,
-              bottom: 200,
-              right: 200,
-            }}
             onClick={() => scrollToElement("try")}
             className="w-4/5 py-2 border border-zinc-300 pl-6 rounded-lg"
           >
@@ -69,13 +62,6 @@ export const LandingHero = () => {
                 opacity: 0,
                 y: 10,
               }}
-              drag
-              dragConstraints={{
-                top: -200,
-                left: -200,
-                bottom: 200,
-                right: 200,
-              }}
               className="px-4 py-2 rounded-md bg-violet-500 text-white "
             >
               {t("Gen")}
@@ -86,13 +72,6 @@ export const LandingHero = () => {
             initial={{
               opacity: 0,
               y: 10,
-            }}
-            drag
-            dragConstraints={{
-              top: -200,
-              left: -200,
-              bottom: 200,
-              right: 200,
             }}
             className=" bg-white rounded-xl shadow-xl border border-zinc-300 px-5 py-3 flex items-center text-center text-xs"
           >
@@ -195,7 +174,7 @@ function LeftSideHero() {
   }, [LabelAnimator]);
   return (
     <div className="flex flex-col w-3/4 md:w-auto justify-between min-h-full py-10 md:gap-0 gap-16">
-      <div className="flex flex-col gap-4 items-start">
+      <div className="flex flex-col gap-4 items-center md:items-start">
         <h1 className="text-4xl font-bold relative" ref={scope}>
           {t.rich("Title", {
             br: () => <br />,
@@ -230,24 +209,24 @@ function LeftSideHero() {
             {t("W3")}
           </motion.span>
         </h1>
-        <span className="font-light text-zinc-600">
+        <span className="font-light text-zinc-600 text-center md:text-start">
           {t.rich("Desc", {
             br: () => <br />,
           })}
         </span>
       </div>
-      <div className="flex flex-col items-start gap-6">
-        <motion.div
+      <div className="flex flex-col items-center gap-6">
+        {/* <motion.div
           animate={{ y: [-5, 0, -5] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="flex items-center gap-3 pl-8"
+          className="flex items-center gap-4"
         >
           <span>{t("Noreg")}</span>
           <ChevronDownIcon width={20} height={20} />
-        </motion.div>
+        </motion.div> */}
         <button
           onClick={() => scrollToElement("try")}
-          className="py-6 px-12 rounded-xl bg-violet-600 text-white font-semibold"
+          className="py-6 px-12 max-w-96 w-full rounded-xl bg-violet-600 text-white font-semibold"
         >
           {t("Try")}
         </button>
@@ -288,13 +267,6 @@ function CTAButton() {
         initial={{
           opacity: 0,
           y: 10,
-        }}
-        drag
-        dragConstraints={{
-          top: -200,
-          left: -200,
-          bottom: 200,
-          right: 200,
         }}
         onClick={() => router.push("/app")}
         className="flex relative justify-end cursor-pointer w-3/4 h-16 border border-zinc-400 bg-white items-center rounded-full p-2"

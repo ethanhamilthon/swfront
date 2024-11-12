@@ -1,7 +1,7 @@
-export function newVisitEvent(path: string) {
+export function newVisitEvent(path: string, userfp: string) {
   return fetch("/api/events/visit", {
     method: "POST",
-    body: JSON.stringify({ path: path }),
+    body: JSON.stringify({ path: path, user: userfp }),
   });
 }
 

@@ -27,6 +27,12 @@ export default function RootLayout({
       <head>
         <title>{t("Landing.Title")}</title>
         <meta name="description" content={t("Landing.Desc")} />
+        <meta property="og:title" content="Vocabraze" />
+        <meta
+          property="og:description"
+          content="Learn a new language faster with AI."
+        />
+        <meta property="og:image" content="/opengraph.jpg" />
         <link rel="icon" href="/myfav.svg" />
       </head>
       <NextIntlClientProvider messages={messages}>

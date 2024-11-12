@@ -55,7 +55,7 @@
       "T4": "İlerlemenizi takip edin ve kelime bilginizi genişletin!"
     },
     "TryOnce": {
-      "Title": "Hizmetimizi<br></br>kayıt olmadan şimdi deneyin",
+      "Title": "Hizmetimizi hemen<br></br>şimdi 3 tıkla deneyin",
       "Loading": "Yükleniyor...",
       "More": "Daha fazla kelime öğrenin",
       "Back": "Geri",
@@ -89,6 +89,7 @@
       }
     },
     "FAQ": {
+      "Title": "Sıkça Sorulan Sorular",
       "Q1": "Başlamak için ne yapmalıyım?",
       "A1": "Başlamak için, Google hesabınızı kullanarak web sitemize kaydolun—bu sadece üç tık alır! Sonrasında sisteme kolayca yeni kelimeler ekleyebilirsiniz. Arayüzümüz, kullanımı kolay olacak şekilde tasarlanmıştır.",
       "Q2": "Uygulamanız ücretsiz mi?",
@@ -110,7 +111,7 @@
   "Meta": {
     "Landing": {
       "Title": "Vocabraze'a Hoşgeldiniz",
-      "Desc": "İyi"
+      "Desc": "Learn a new language faster with AI."
     }
   },
   "Login": {

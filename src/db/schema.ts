@@ -25,6 +25,17 @@ export const wordTable = sqliteTable("words", {
   updated_at: text("updated_at").default(sql`CURRENT_TIMESTAMP`),
 });
 
+export const wordDescTable = sqliteTable("word_descs", {
+  id: text("id").primaryKey(),
+  wordTitle: text("word_title"),
+  toLanguage: text("to_language"),
+  pos: text("pos"),
+  level: text("level"),
+  pronounce: text("pronounce"),
+  article: text("article"),
+  createdAt: text("created_at").default(sql`CURRENT_TIMESTAMP`),
+});
+
 export const languageTable = sqliteTable("languages", {
   id: text("id").primaryKey(),
   name: text("name").notNull(),

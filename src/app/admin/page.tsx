@@ -2,7 +2,7 @@ import { db } from "@/db";
 import { eventTable, userTable, wordTable } from "@/db/schema";
 import { Auth } from "@/utils/server/check-token";
 import { countPath, extractPath, formatDate } from "@/utils/server/format-data";
-import { ErrorSchema } from "@/utils/server/schemas";
+import { ErrorSchema, VisitSchema } from "@/utils/server/schemas";
 import { sql, eq, desc } from "drizzle-orm";
 import { redirect } from "next/navigation";
 
@@ -63,7 +63,16 @@ async function VisitEvents() {
     .from(eventTable)
     .where(eq(eventTable.type, "visit"))
     .orderBy(desc(eventTable.created_at));
-  const pathCounts = countPath(data.map((d) => d.value!));
+  const values = data.map((d) => {
+    try {
+      return VisitSchema.parse(JSON.parse(d.value || ""));
+    } catch (error) {
+      return d.value || "";
+    }
+  });
+  const pathCounts = countPath(
+    values.map((d) => (typeof d === "string" ? d : d.path))
+  );
   return (
     <div className="w-full flex flex-col gap-8">
       <h2 className="text-xl font-bold">Visit path counts</h2>
@@ -89,10 +98,25 @@ async function VisitEvents() {
       <div className="w-full flex flex-col divide-y divide-zinc-200">
         {data.map((event, i) => {
           if (i > showCount) return null;
+          if (typeof values[i] === "string") {
+            return (
+              <div key={event.id} className="w-full flex items-center">
+                <span className="w-1/2 py-3 flex justify-center items-center">
+                  {extractPath(values[i])}
+                </span>
+                <span className="w-1/2 py-3 flex justify-center items-center bg-zinc-100">
+                  {formatDate(event.created_at!)}
+                </span>
+              </div>
+            );
+          }
           return (
             <div key={event.id} className="w-full flex items-center">
               <span className="w-1/2 py-3 flex justify-center items-center">
-                {extractPath(event.value!)}
+                {extractPath(values[i].path)}
+              </span>
+              <span className="w-1/3 py-3 flex justify-center items-center overflow-x-scroll px-4">
+                {values[i].user}
               </span>
               <span className="w-1/2 py-3 flex justify-center items-center bg-zinc-100">
                 {formatDate(event.created_at!)}

@@ -1,12 +1,9 @@
 import { db } from "@/db";
 import { eventTable } from "@/db/schema";
 import { newErrorEvent } from "@/utils/server/events";
+import { VisitSchema } from "@/utils/server/schemas";
 import { v4 } from "uuid";
-import { z } from "zod";
 
-const VisitSchema = z.object({
-  path: z.string().url(),
-});
 export const POST = async (req: Request) => {
   try {
     const res = await req.json();
@@ -14,7 +11,7 @@ export const POST = async (req: Request) => {
     await db.insert(eventTable).values({
       id: v4(),
       type: "visit",
-      value: data.path,
+      value: JSON.stringify({ path: data.path, user: data.user }),
       created_at: new Date().toISOString(),
     });
     return new Response("success", {

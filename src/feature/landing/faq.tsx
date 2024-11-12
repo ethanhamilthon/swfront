@@ -10,9 +10,7 @@ export const LandingFAQ = () => {
   const t = useTranslations("Landing.FAQ");
   return (
     <section className="w-full flex flex-col items-center gap-12 bg-gradient-to-br from-violet-500 to-violet-700 py-12">
-      <h3 className="text-white text-2xl font-bold">
-        Часто задаваемые вопросы
-      </h3>
+      <h3 className="text-white text-2xl font-bold">{t("Title")}</h3>
       <div className="max-w-3xl flex flex-col gap-4 px-6 w-full">
         <Question question={t("Q1")} answer={t("A1")} />
         <Question question={t("Q2")} answer={t("A2")} />

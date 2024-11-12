@@ -8,6 +8,9 @@ import { useState } from "react";
 import { v4 } from "uuid";
 import { RenderedWord } from "../render-word";
 import { useRouter } from "next/navigation";
+import { WordDescAction } from "../webscrap/worddesc-action";
+import { WordDescType } from "../webscrap/worddesc";
+import { ScrapLabels } from "../webscrap";
 
 export function Ask(props: {
   token: string;
@@ -21,10 +24,13 @@ export function Ask(props: {
   const [requested, setRequested] = useState(false);
   const [isLoading, setLoading] = useState(false);
   const [wordID] = useState(v4());
+  const [wordDescData, setWordDescData] = useState<WordDescType | null>(null);
   const router = useRouter();
 
   const handleSubmit = async () => {
     setLoading(true);
+    const worddesc = await WordDescAction(word, props.to);
+    setWordDescData(worddesc);
     const response = await fetch("/api/ask", {
       method: "POST",
       headers: {
@@ -89,6 +95,7 @@ export function Ask(props: {
       )}
       {requested && (
         <div className="w-full flex flex-col gap-6">
+          {wordDescData && <ScrapLabels worddesc={wordDescData} />}
           <RenderedWord word={message} />
         </div>
       )}

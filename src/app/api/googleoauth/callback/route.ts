@@ -8,6 +8,7 @@ import { GenerateJWTToken } from "@/utils/server/generateToken";
 import { OAuth2Client } from "google-auth-library";
 import { CalculatePoints } from "@/utils/server/calculate-points";
 import { newErrorEvent } from "@/utils/server/events";
+import { AuthStateSchema } from "@/utils/server/auth-state-schema";
 
 const UserDataSchema = z.object({
   sub: z.string(),
@@ -21,10 +22,25 @@ const UserDataSchema = z.object({
 export const dynamic = "force-dynamic";
 export async function GET(req: NextRequest) {
   const queryParams = new URLSearchParams(req.url);
-  const url = req.nextUrl.clone();
+  const state = req.nextUrl.clone().searchParams.get("state") || "";
+  let stateParseValue = {
+    parsed: false,
+    from_language: "",
+    to_language: "",
+  };
+  try {
+    const newdata = AuthStateSchema.parse(JSON.parse(state));
+    stateParseValue.parsed = true;
+    stateParseValue.from_language = newdata.from_language;
+    stateParseValue.to_language = newdata.to_language;
+  } catch (error) {
+    console.log(error);
+    stateParseValue.parsed = false;
+  }
   const now = new Date().toISOString();
   try {
     const code = queryParams.get("code");
+    console.log(state);
     if (code === null) {
       throw new Error("error get code and state");
     }
@@ -94,26 +110,55 @@ export async function GET(req: NextRequest) {
       });
     }
     const id = v4();
-    await db.insert(userTable).values({
-      id: id,
-      name: userData.given_name,
-      full_name: userData.name,
-      email: userData.email,
-      avatar: userData.picture,
-    });
+    if (stateParseValue.parsed) {
+      await db.insert(userTable).values({
+        id: id,
+        name: userData.given_name,
+        full_name: userData.name,
+        email: userData.email,
+        avatar: userData.picture,
+        language: stateParseValue.from_language,
+      });
+      await db.insert(languageTable).values({
+        id: v4(),
+        name: stateParseValue.to_language,
+        user_id: id,
+        created_at: now,
+      });
+    } else {
+      await db.insert(userTable).values({
+        id: id,
+        name: userData.given_name,
+        full_name: userData.name,
+        email: userData.email,
+        avatar: userData.picture,
+      });
+    }
     await db.insert(pointTable).values({
       id: v4(),
       point: 50,
       user_id: id,
       updated_at: now,
     });
-    const jwttoken = GenerateJWTToken({
-      id: id,
-      email: userData.email,
-      plan: "free",
-      targets: [],
-      points_updated: now,
-    });
+    let jwttoken = "";
+    if (stateParseValue.parsed) {
+      jwttoken = GenerateJWTToken({
+        id: id,
+        email: userData.email,
+        language: stateParseValue.from_language,
+        plan: "free",
+        targets: [stateParseValue.to_language],
+        points_updated: now,
+      });
+    } else {
+      jwttoken = GenerateJWTToken({
+        id: id,
+        email: userData.email,
+        plan: "free",
+        targets: [],
+        points_updated: now,
+      });
+    }
     return new Response("", {
       status: 302, // Статус редиректа
       headers: {
@@ -122,9 +167,14 @@ export async function GET(req: NextRequest) {
       },
     });
   } catch (error) {
-    await newErrorEvent("google oauth callback", JSON.stringify(error));
+    console.log(error);
+    try {
+      await newErrorEvent("google oauth callback", JSON.stringify(error));
+    } catch (error) {
+      console.log(error);
+    }
     return new Response("", {
-      status: 302, // Статус редиректа
+      status: 303, // Статус редиректа
       headers: {
         Location: "/", // Новый URL для редиректа
       },

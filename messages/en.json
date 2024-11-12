@@ -3,7 +3,7 @@
     "Title": "Master new<br></br> words <sp>faster</sp>",
     "LoginButton": "Log In",
     "TryButton": "I want to try",
-    "Desc": "<sp>Syncword</sp> uses <sp>AI</sp> to <br></br>make language learning easier",
+    "Desc": "<sp>Vocabraze</sp> uses <sp>AI</sp> to <br></br>make language learning easier",
     "Hero": {
       "Title": "Learn new<br></br>words",
       "W1": "fast",
@@ -48,7 +48,7 @@
       }
     },
     "TryOnce": {
-      "Title": "Try our service<br></br>without registration right now",
+      "Title": "Try our service<br></br>right now in 3 clicks",
       "Loading": "Loading...",
       "More": "Learn more words",
       "Back": "Back",
@@ -89,6 +89,7 @@
       }
     },
     "FAQ": {
+      "Title": "Frequently Asked Questions",
       "Q1": "What do I need to do to get started?",
       "A1": "To get started, simply register on our website using your Google account—it only takes three clicks! After that, you can easily add new words to the system. Our interface is designed to be easy to use.",
       "Q2": "Is your app free?",
@@ -109,8 +110,8 @@
   },
   "Meta": {
     "Landing": {
-      "Title": "Welcome to Vocabraze",
-      "Desc": "It is good"
+      "Title": "Vocabraze | Learn new words",
+      "Desc": "Learn a new language faster with AI."
     }
   },
   "Login": {

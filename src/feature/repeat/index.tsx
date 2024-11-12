@@ -5,6 +5,9 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RenderedWord } from "../render-word";
+import { ScrapLabels } from "../webscrap";
+import { getWordDesc, WordDescType } from "../webscrap/worddesc";
+import { WordDescAction } from "../webscrap/worddesc-action";
 
 export type WordType = typeof wordTable.$inferSelect;
 
@@ -50,8 +53,33 @@ export function Repeat({ words }: { words: WordType[] }) {
         <h2 className="text-2xl font-semibold text-zinc-800">
           {words[currentStep].title}
         </h2>
+        <Labels
+          word={words[currentStep].title}
+          lang={words[currentStep].to_language || "english"}
+        />
         <RenderedWord word={words[currentStep].description || ""} />
       </div>
     </main>
   );
+}
+
+function Labels(props: { word: string; lang: string }) {
+  const [loading, setLoading] = useState(false);
+  const [wordDescData, setWordDescData] = useState<WordDescType | null>(null);
+  useEffect(() => {
+    (async () => {
+      setLoading(true);
+      const data = await WordDescAction(props.word, props.lang);
+      setWordDescData(data);
+      setLoading(false);
+    })();
+  }, [props.word, props.lang]);
+
+  if (loading) {
+    return <div className="flex items-center">Loading...</div>;
+  }
+  if (!wordDescData) {
+    return null;
+  }
+  return <ScrapLabels worddesc={wordDescData} />;
 }

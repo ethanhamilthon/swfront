@@ -60,7 +60,7 @@
       "Desc2": "C'est exactement ce que nous faisons chez Syncword. Nous expliquons les mots à travers des exemples et les montrons dans leur contexte."
     },
     "TryOnce": {
-      "Title": "Essayez notre service<br></br>sans inscription dès maintenant",
+      "Title": "Essayez notre<br></br>service en 3 clics",
       "Loading": "Chargement...",
       "More": "Apprendre plus de mots",
       "Back": "Retour",
@@ -89,6 +89,7 @@
       }
     },
     "FAQ": {
+      "Title": "Questions fréquemment posées",
       "Q1": "Que dois-je faire pour commencer?",
       "A1": "Pour commencer, inscrivez-vous simplement sur notre site en utilisant votre compte Google—cela ne prend que trois clics! Après cela, vous pouvez facilement ajouter de nouveaux mots au système. Notre interface est conçue pour être facile à utiliser.",
       "Q2": "Votre application est-elle gratuite?",
@@ -110,7 +111,7 @@
   "Meta": {
     "Landing": {
       "Title": "Bienvenue chez Vocabraze",
-      "Desc": "C'est bien"
+      "Desc": "Learn a new language faster with AI."
     }
   },
   "Login": {
